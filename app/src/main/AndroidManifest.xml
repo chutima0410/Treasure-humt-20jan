@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rtc.phornthip.chutima.treasuvehumtmath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlayActivity" android:screenOrientation="portrait" />
+        <activity android:name=".StatPlay" android:screenOrientation="portrait" />
+        <activity android:name=".Cartoon1" android:screenOrientation="portrait" />
+        <activity android:name=".Cartoon2" android:screenOrientation="portrait" />
+        <activity android:name=".Section2" android:screenOrientation="portrait" />
+        <activity android:name=".Section3" android:screenOrientation="portrait" />
+        <activity android:name=".SuccessGame" android:screenOrientation="portrait" />
+        <activity android:name=".Play2Activity" android:screenOrientation="portrait" />
+        <activity android:name=".Play3Activity" android:screenOrientation="portrait" />
+        <activity android:name=".Play4Activity" android:screenOrientation="portrait" />
+        <activity android:name=".Play5Activity" android:screenOrientation="portrait" />
+        <activity android:name=".SuccessGameActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
